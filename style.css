@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Mulish", serif;
+}
+.header{
+    width: 1440px;
+    border: 2px solid red;
+}
+.container{
+    padding: 0 130px;
+    margin: 0 auto;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    gap: 40px;
+    background-color: #458FF6;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    position: absolute;
+}
+.nav ul li{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+}
+.nav ul li:hover{
+    font-weight: 700;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 91px 0;
+}
+.header-content_text{
+    width: 440px;
+}
+.header-content_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.header-content_text p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+.header-content_text button{
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    background-color: #458ff600;
+    border-color: #458FF6;
+    color: #458FF6;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    transition: all 1s;
+}
+
+.header-content_text button:hover{
+    background-color: #458FF6;
+    color: white;
+}
+.services{
+    width: 1440px;
+    border: 2px solid blue;
+}
+.services-h2{
+   text-align: center;
+   font-family: Mulish;
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 56px;
+}
+.services-p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+.kartochki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.ggg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.os{
+width: 1500px;
+height: 900px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+align-items: center;
+border: 1px solid red;
+}
+.card{
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #e7e7e7;
+    padding: 68px 58px 28px 41px;
+    margin-bottom: 40px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 700; 
+    line-height: 56px;
+    margin-top: 40px;   
+}
+.card p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7D7987;
+}
+.card:hover{
+    color: white;
+    background-color: #5a98f2;
+    transition: 0.5s;
+}
+.fff{
+    width: 200px;
+    height: 56.74px;
+    top: 1785px;
+    left: 639px;
+    gap: 0px;
+    border-radius: 55px ;
+    opacity: 0px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: -1000px;
+    margin-top: -400px;
+    font-size: 50px;
+    
+}
+.p2{
+   
+    width: 434.98px;
+    height: 121.59px;
+    top: 2279.79px;
+    left: 875.02px;
+    gap: 0px;
+    opacity: 0px;    
+    margin: 1000px;
+    margin-top: 10px;
+    margin-left: 910px;
+}
+.card1{
+    width: 380px;
+    height: 240px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.card1 p{
+    width: 380px;
+    height: 516px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: center; 
+    margin: 1000px;
+    margin-top: 10px;
+    margin-left: 910px;
+    
+}
+.div{
+    width: 200px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid #458FF6;
+    border-radius: 40px;
+}
+.div:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: 0.5s;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    margin: 0 auto;
+}
+.div{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div button{
+    border: none;
+}
+.checkout{
+    width: 380px;
+    height: 580px;
+}
+
